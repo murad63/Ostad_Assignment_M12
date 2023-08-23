@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  min-height: 100vh;
+}
+
+footer {
+  position: fixed;
+  margin-top: 50px;
+  width: 100%;
+  bottom: 0;
+}
+
+#contact-form input, textarea {
+  width: 50%;
+  margin-bottom: 16px;
+  padding: 8px;
+}
